@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>
+            WannaPay
+        </title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <section id="principal">
+        <header>
+            <img class="logo" src="img/W.png" alt="logo"/>
+            <p> Valida tu tarjeta de credito</p>
+            <img class="logo" src="img/W.png" alt="logo"/>
+        </header>
+        <main>
+        <div class="parte" id="parte1">
+            <section id="titulo">
+                <h1>WannaPay</h1>
+                <p>RAPIDO. FACIL. SEGURO</p>
+            </section>
+            <section id="eslogan">
+                <p>WannaPay es una empresa internacional de verificacion de tarjea de credito.<br>
+                Ingrese los digitos de tu tarjeta, Valida e instantaneamente tienes acceso 
+                a miles de sitios de compras por internet en todo el mundo
+                </p>
+            </section>
+        </div>
+        <div class="parte" id="parte2">
+            <img class="logo" src="img/W.png" alt="logo"/>
+            <p> Ingrese los digitos de tu tarjeta de credito</p>
+            <input type="text" onkeypress='return validaNumericos(event)' id="tarjeta" placeholder="000-000">
+            <input type="submit" value="validar" id="btnValidar">
+        </div>
+        </main>
+        </section>
+        <section id="part">
+            <div class="center">
+                <img class="img" id="img-error" src="img/error.jpg" alt="error.jpg">
+                <img class="img" id="img-acierto" src="img/correcto.png" alt="acierto.jpg">
+                <p>Su tarjeta # <strong id="num"> </strong> <strong id="reconocida"> </strong></p>
+                <button id="comeback" value="regresar">Regresar</button>
+            </div>
+            </section>
+       <script src="Script.js"></script>
+    </body>
+</html>

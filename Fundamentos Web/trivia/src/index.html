@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/330d143ce1.js" crossorigin="anonymous"></script>
+    <title>Trivia</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main>
+        <section class="part">
+            <section class="start">
+                <header>
+                    <h1><i class="fas fa-shapes"></i> App Trivia</h1>
+                </header>
+                <div class="bd-part" id="part-login">
+                    <b>Bienvenidos!!!</b>
+                    <br>
+                    <img src="../img/home.gif" alt="home" class="icon">
+                    <div class="getUser">
+                        <label for="nickname">Ingrese su nombre o nickname:</label><br />
+                        <p class="p-error d-none" id="error-user">Campo Vacio</p>
+                        <input type="text" class="user" name="nickname" id="nickname" placeholder="Emely" />
+                        <button type="submit" class="bttn" id="bttnhome">
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="bd-part d-none" id="part-cat">
+                    <i class="fab fa-centos"></i>
+                    <b>Bienvenido <b id="user"></b></b>
+                    <i class="fab fa-centos"></i>
+                    <p>Categorias: </p>
+                    <div class="space-around">
+                        <button class="bttn" id="bttnDisney">
+                            <img src="../img/disney.gif" alt="disney-plus.png">
+                            <br>
+                            Disney
+                        </button>
+                        <button class="bttn" id="bttnMitologia">
+                            <img src="../img/zeus.gif" alt="emblema">
+                            <br>
+                            Mitologia Griega
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+            <section class="play" >
+               
+            </section>
+            <section class="finish">
+
+            </section>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

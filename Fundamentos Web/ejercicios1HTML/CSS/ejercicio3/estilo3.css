@@ -1,0 +1,12 @@
+#banner-contact{
+    background-image:url(internet.jpg);
+}
+h2{
+    font-size: 28px;
+}
+p{
+    width: 540px;
+    justify-content: right;
+    vertical-align: middle;
+    color: white;
+}

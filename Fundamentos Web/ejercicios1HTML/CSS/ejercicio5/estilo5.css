@@ -1,0 +1,25 @@
+
+#header{
+    background-color: #2e5f9e;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: #333;
+   
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#cuerpo{
+
+    color: #2e5f9e;
+    
+}

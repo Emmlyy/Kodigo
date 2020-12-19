@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin: 10px 0;
+    border: 2px solid tomato;
+}
+
+
+.clear {
+    clear: both;
+}
+
+/*Primer Menú*/
+/*--classic-- */
+
+#classic {
+    background-color: #333;
+    height: 50px;
+}
+
+#classic h2 {
+    float: left;
+    color: yellow;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+#classic ul {
+    list-style: none;
+    margin-left: auto;
+    width: max-content;
+    line-height: 50px;
+
+}
+
+#classic ul li {
+    display: inline;
+    padding-right: 25px;
+
+}
+
+#classic ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* ------------ */
+/* Menu: transparente */
+
+#transparent {
+    background-image: url('imagen1.jpg');
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#transparent h2 {
+    float: left;
+    line-height: 50px;
+    padding-left: 10px;
+    color: beige;
+    text-shadow: 2px 2px 3px black;
+}
+
+#transparent ul {
+    width: max-content;
+    line-height: 50px;
+    margin-left: auto;
+}
+
+#transparent ul li {
+    display: inline;
+    padding-right: 25px;
+
+}
+
+
+#transparent ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+    font-size: 20px;
+}
+
+/* -------------*/
+/*Menu3: menu lateral */
+
+
+#lateral {
+    height: 300px;
+
+}
+
+#lateral .l-menu,
+.l-menu-body {
+
+    float: left;
+}
+
+#lateral .l-menu h2 {
+    padding-top: 5px;
+}
+
+#lateral .l-menu {
+    text-align: center;
+    background-color: coral;
+    height: 100%;
+    width: 20%;
+}
+
+#lateral .l-menu ul {
+    padding-top: 40px;
+    width: max-content;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#lateral .l-menu ul li {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+#lateral .l-menu ul li a {
+    text-decoration: none;
+
+}
+
+#lateral .l-menu-body {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(235, 177, 70);
+    padding: 10px;
+}
+
+#lateral .l-menu-body p {
+    margin-top: 5px;
+}
+
+/*---------*/
+/*Menu 4: sub menu */
+
+#classic-two {
+    background-color: #333;
+    height: 50px;
+}
+
+#classic-two h2 {
+    float: left;
+    line-height: 50px;
+    margin-left: 20px;
+    color: red;
+}
+
+#classic-two ul {
+    list-style: none;
+    line-height: 50px;
+}
+
+#classic-two ul li {
+    float: left;
+    text-align: center;
+    height: 100%;
+    width: 100px;
+    background-color: #333;
+}
+
+
+#classic-two .menu {
+    height: 100%;
+    width: 410px;
+    margin-left: auto;
+}
+
+#classic-two ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 1rem;
+}
+
+#classic-two ul li a:hover {
+    background-color: rgba(116, 114, 114, 0.658);
+    color: yellow;
+}
+
+
+#classic-two ul li a:focus {
+    color: red;
+}
+
+
+#classic-two ul li ul {
+    display: none;
+}
+
+#classic-two ul li:hover ul {
+    display: block;
+}

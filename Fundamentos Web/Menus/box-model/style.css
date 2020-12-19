@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    /*su valor por defecto*/
+}
+
+.caja1 {
+    width: 200px;
+    height: 100px;
+    background-color: tomato;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 6px solid black;
+}
+
+.caja2 {
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.caja3 {
+    width: 200px;
+    height: 100px;
+    background-color: salmon;
+    border: 6px solid black;
+    padding-top: 10px;
+    padding-left: 10px;
+}

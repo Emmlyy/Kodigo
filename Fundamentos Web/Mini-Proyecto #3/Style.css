@@ -1,0 +1,171 @@
+@font-face{
+    font-family: 'Kite one';
+    src: url(KiteOne-Regular.ttf);
+}
+@font-face{
+    font-family: 'cassandra';
+    src: url(Cassandra\ Personal\ Use.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color:#CBF2F2;
+    text-shadow: 5px 2px 2px #1D414F;
+}
+header p{
+    font-size: 35px;
+    font-family: 'Impact', Haettenschweiler,
+     'Arial Narrow Bold', sans-serif;
+    color: #EE6B4D;
+    align-self: center;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+.parte{
+    width: 50vw;
+    height: 90vh;
+    overflow: hidden;
+}
+#parte1{
+    background-color: #1D414F;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    
+}
+#titulo{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-self: flex-start;
+    background-color:#CBF2F2;
+    text-align: start;
+    overflow: hidden;
+}
+#titulo h1{
+    font-size: 50px;
+    font-stretch: normal;
+    font-family: 'cassandra';
+    color: #EE6B4D;
+    justify-self: flex-start;
+    text-shadow: 5px 2px 2px #1D414F;
+}
+#titulo p{
+    font-size: 36px;
+    font-family: 'Impact', Haettenschweiler,
+     'Arial Narrow Bold', sans-serif;
+    color: #1D414F;
+    text-shadow: 5px 2px 2px #EE6B4D;
+}
+#eslogan{
+    width: 50vw;
+    height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    font-size: 20px;
+   align-self: flex-end;
+}
+
+#eslogan p{
+    width: 280px;
+    font-size: 20px;
+    font-family: 'Kite one';
+    color: #CBF2F2;
+    text-align: justify;
+    text-justify: inter-word;
+    align-self: flex-end;
+}
+#parte2{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    background-color: #1D414F;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+#parte2 p{
+    font-size: 20px;
+    color:#CBF2F2;
+    margin: 20px;
+}
+#tarjeta{
+    width: 280px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-family: monospace;
+}
+#btnValidar{
+    width: 90px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: #CBF2F2;
+    font-size: 20px;
+    border:50px;
+}
+
+.alerta{
+    border-color: rgb(255, 28, 28);
+}
+
+#part{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    background-color:#CBF2F2;
+}
+#part .center{
+    padding: 70px 0;
+    height: 100vh;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+    vertical-align: auto;
+    justify-content: center;
+}
+#part .center .img{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+#part .center #comeback{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
